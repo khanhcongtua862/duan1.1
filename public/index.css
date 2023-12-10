@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    margin: 20px;
+}
+
+/* Navbar Styles */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+/* Dropdown Styles */
+.dropdown-menu {
+    background-color: #f8f9fa;
+}
+
+.dropdown-item {
+    color: #212529;
+}
+
+.dropdown-divider {
+    background-color: #e9ecef;
+}
+
+/* Carousel Styles */
+#carouselExample {
+    margin-top: 20px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .logo img {
+        width: 80px;
+    }
+
+    .btn-group {
+        flex-direction: column;
+    }
+
+    .btn {
+        margin-bottom: 10px;
+    }
+}
